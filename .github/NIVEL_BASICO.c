@@ -41,7 +41,7 @@ printf("Digite um código, de 01-04, para o Estado escolhido\n");
 scanf("%3s", codigo);
 
 printf("Digite o nome da Cidade do Estado escolhido que você quer\n");
-scanf("%50s", nome_cidade);
+scanf("%49s", nome_cidade);
 
 printf("Escreva a quantidade de população, em milhões, da Cidade escolhida\n");
 scanf("%d", &populacao);
@@ -68,7 +68,7 @@ printf("Digite um código, de 01-04, para o Estado escolhido\n"); //não está s
 scanf("%3s", codigo2);
 
 printf("Digite o nome da Cidade do Estado escolhido que você quer\n"); //pulando essa linha por algum motivo
-scanf("%19s", nome_cidade2);
+scanf("%49s", nome_cidade2);
 
 printf("Escreva a quantidade de população, em milhões, da Cidade escolhida\n");
 scanf("%d", &populacao2);
