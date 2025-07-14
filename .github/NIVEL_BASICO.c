@@ -23,7 +23,7 @@ int main() {
         //variavel
         char estado2;
         char codigo2[4]; //idem
-        char nome_cidade2[20]; //idem
+        char nome_cidade2[50]; //idem
         int populacao2;
         float area2;
         float PIB2;
@@ -41,7 +41,7 @@ printf("Digite um código, de 01-04, para o Estado escolhido\n");
 scanf("%3s", codigo);
 
 printf("Digite o nome da Cidade do Estado escolhido que você quer\n");
-scanf("%19s", nome_cidade);
+scanf("%50s", nome_cidade);
 
 printf("Escreva a quantidade de população, em milhões, da Cidade escolhida\n");
 scanf("%d", &populacao);
