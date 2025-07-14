@@ -18,7 +18,6 @@ int main() {
         float area;
         float PIB;
         int turista;
-        
       //carta 2
         //variavel
         char estado2;
@@ -28,7 +27,6 @@ int main() {
         float area2;
         float PIB2;
         int turista2;
-        char blank;
     // Cadastro das Cartas:
     // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
     // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
@@ -64,10 +62,10 @@ printf("Agora vamos a segunda carta.....\n");
 printf("Digite a primeira letra, de A-H, do Estado da sua segunda carta\n");
 scanf(" %c", &estado2);
 
-printf("Digite um código, de 01-04, para o Estado escolhido\n"); //não está sendo lido
+printf("Digite um código, de 01-04, para o Estado escolhido\n");
 scanf("%3s", codigo2);
 
-printf("Digite o nome da Cidade do Estado escolhido que você quer\n"); //pulando essa linha por algum motivo
+printf("Digite o nome da Cidade do Estado escolhido que você quer\n");
 scanf("%49s", nome_cidade2);
 
 printf("Escreva a quantidade de população, em milhões, da Cidade escolhida\n");
