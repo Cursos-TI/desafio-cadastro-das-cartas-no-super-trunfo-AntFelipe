@@ -92,7 +92,7 @@ printf("Tendo como código: %c%s\n", estado, codigo); //código com a primeira l
 printf("A cidade escolhida foi: %s\n", nome_cidade); //cidade
 printf("com %d milhões de pessoas vivendo lá\n", populacao); //população
 printf("Com uma área de %.2f km²\n", area); //área
-printf("O PIB dessa Cidade é de %.2f milhões de reais\n", PIB); //PIB
+printf("O PIB dessa Cidade é de R$%.2f\n", PIB); //PIB
 printf("tendo %d pontos turísticos\n", turista); //Pontos turísticos
     
     //resultado da 2ª carta
@@ -104,7 +104,7 @@ printf("Tendo como código: %c%s\n", estado2, codigo2); //código com a primeira
 printf("A cidade escolhida foi: %s\n", nome_cidade2); //cidade
 printf("com %d milhões de pessoas vivendo lá\n", populacao2); //população
 printf("Com uma área de %.2f km²\n", area2); //área
-printf("O PIB dessa Cidade é de %.2f milhões de reais\n", PIB2); //PIB
+printf("O PIB dessa Cidade é de R$%.2f\n", PIB2); //PIB
 printf("tendo %d pontos turísticos\n", turista2); //Pontos turísticos
     return 0;
 }
