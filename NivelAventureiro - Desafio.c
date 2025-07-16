@@ -127,5 +127,9 @@ printf("O PIB dessa Cidade é de R$%.2f\n", PIB2); //PIB
 printf("tendo %d pontos turísticos\n", turista2); //Pontos turísticos
 printf("PIB per Capita: %.2f de reais por pessoa\n",PIBper2);
 printf("A Densidade populacional dessa cidade é de %.3f hab/km²\n", densidade2);
+printf("\n");
+printf("\n");
+printf("\n");
+
 return 0;
 }
